@@ -1,0 +1,48 @@
+/*     460525 : 타이틀 텍스트      */
+.title__460525__ {font-size:0; }
+.title__460525__ p {
+	display:inline-block; position:relative; margin:0; padding:0;
+	font-size:24px; font-weight:bold; color:#f3c017; letter-spacing:-1px; line-height:1.4em;
+}
+.title__460525__ p:before {content:''; position:absolute; background:#d00000; font-size:0;}
+
+.title__460525__.style_top p {padding-top:10px;}
+.title__460525__.style_top p:before {top:0; left:0; width:24px; height:4px;}
+
+.title__460525__.style_right p {padding-right:14px;}
+.title__460525__.style_right p:before {top:16%; right:0; width:4px; height:24px;}
+
+.title__460525__.style_bottom p {padding-bottom:12px;}
+.title__460525__.style_bottom p:before {left:0; bottom:0; width:24px; height:4px;}
+
+.title__460525__.style_left p {padding-left:14px;}
+.title__460525__.style_left p:before {top:16%; left:0; width:4px; height:24px;}
+
+.title__460525__.style_circle1 p {padding-left:18px;}
+.title__460525__.style_circle1 p:before {
+	top:0; bottom:0; left:0; width:10px; height:10px; margin:auto; border-radius:50%;
+}
+
+.title__460525__.style_circle2 p {padding-left:18px;}
+.title__460525__.style_circle2 p:before {
+	top:0; left:0; bottom:0; width:10px; height:10px; margin:auto; border-radius:50%;
+	border:2px solid #d00000; background:none; box-sizing:border-box;
+}
+
+/*     460535 : 장문 텍스트      */
+.textarea__460535__ p { 
+	display:block; margin:0; padding:0;
+	font-size:15px; font-weight:normal; color:#444444; letter-spacing:0; line-height:1.6em;
+}
+
+/*     460555 : 이미지 (비율형)      */
+.img_ratio__460555__ {text-align:center;}
+.img_ratio__460555__ * {box-sizing:border-box;}
+.img_ratio__460555__ a {display:block; text-decoration:none;}
+.img_ratio__460555__ img {width:100%; width:60%; max-width:100%; vertical-align:top;}
+
+@media (min-width:768px){
+	.img_ratio__460555__ {text-align:inherit;}
+	.img_ratio__460555__ img {width:auto; width:px;}
+}
+
