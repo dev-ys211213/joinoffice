@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 한국어 */
+@font-face {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../webFont/NotoSansKR-Hestia/NotoSansKR-Light-Hestia.eot"),
+		 url("../webFont/NotoSansKR-Hestia/NotoSansKR-Light-Hestiad41d.eot?#iefix") format("embedded-opentype"),
+		 url("../webFont/NotoSansKR-Hestia/NotoSansKR-Light-Hestia.woff") format("woff"),
+		 url("../webFont/NotoSansKR-Hestia/NotoSansKR-Light-Hestia.otf") format("opentype");
+}
+@font-face {
+	font-family: "Noto Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url("../webFont/NotoSansKR-Hestia/NotoSansKR-Regular-Hestia.eot"),
+		 url("../webFont/NotoSansKR-Hestia/NotoSansKR-Regular-Hestiad41d.eot?#iefix") format("embedded-opentype"),
+		 url("../webFont/NotoSansKR-Hestia/NotoSansKR-Regular-Hestia.woff") format("woff"),
+		 url("../webFont/NotoSansKR-Hestia/NotoSansKR-Regular-Hestia.otf") format("opentype");
+}
+
+body,h1,h2,h3,h4,h5,h6,p,div,li,dt,dd,input,textarea,button{font-family: "Noto Sans","Nanum Gothic","Malgun Gothic",sans-serif;}
