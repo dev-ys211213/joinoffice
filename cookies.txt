@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.joinoffice.kr	TRUE	/	FALSE	1999999999	PHPSESSID	7698pf4e6qg4on5400gen6b0t2
-www.joinoffice.kr	TRUE	/	FALSE	1999999999	6666cd76f96956469e7be39d750cc7d9	1
-www.joinoffice.kr	TRUE	/	FALSE	1999999999	page404_url	%2F
-www.joinoffice.kr	TRUE	/	FALSE	1999999999	ssl_possible	off
-
